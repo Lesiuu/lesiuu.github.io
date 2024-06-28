@@ -20,6 +20,7 @@ h1 {
 
 .calendar {
     box-shadow: 4px 4px 4px #d7d7d7;
+    outline: 1px solid #d7d7d7 ;
     text-align: center;
     position: fixed;
     width: 45vw;
@@ -42,10 +43,10 @@ h1 {
 }
 
 .previous-month-button:hover {
-    background-color: #f1f1f1;
+    background-color: #dbdbdb;
 }
 .next-month-button:hover {
-    background-color: #f1f1f1;
+    background-color: #dbdbdb;
 }
 
 .month-name {
@@ -91,11 +92,11 @@ h1 {
     transition: all 0.2s ease;
 }
 .day-card:hover {
-    background-color: #f1f1f1;
+    background-color: #dbdbdb;
 }
 
 .external-day {
-    background-color:#f1f1f1;
+    background-color:#dbdbdb;
 }
 
 .current-day {
