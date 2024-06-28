@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="/assets/calendar.css">
+    <script src="/assets/render.js"></script>
+
+</head>
+<body onload="render();">
+    <a href="/">FORM</a>
+   <div class="calendar">
+        <div class="previous-month-button" onclick="previousMonth()">PREVIOUS</div>
+        <div class="next-month-button" onclick="nextMonth()">NEXT</div>
+        <div class="header"><h1 class="month-name">month</h1></div>
+        
+        <div class="box">
+
+            <div class="days-of-week">
+                <ul>
+                    <li class="day-name">MONDAY</li>
+                    <li class="day-name">TUESDAY</li>
+                    <li class="day-name">WEDNESDAY</li>
+                    <li class="day-name">THURSDAY</li>
+                    <li class="day-name">FRIDAY</li>
+                    <li class="day-name">SATURDAY</li>
+                    <li class="day-name">SUNDAY</li>
+                </ul>
+            </div>
+
+            <ul class="month-render"></ul>
+
+        </div>
+    </div>
+
+   
+  
+</body>
+</html>
